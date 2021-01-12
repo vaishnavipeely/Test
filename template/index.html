@@ -41,12 +41,12 @@
     {% csrf_token %}
 
     <div class="form-group">
-      <input class="form-control" placeholder="Quiz Score" required type="text" name="quiz">
+      <input class="form-control" placeholder="Quiz Score" required type="text" name="Quiz">
     </div>
 
 
     <div class="form-group">
-      <input class="form-control" placeholder="Sample test Score" required type="text" name="sample">
+      <input class="form-control" placeholder="Sample test Score" required type="text" name="sampletest">
     </div>
 
 
@@ -66,7 +66,7 @@
 
 
     
-    <input class="btn btn-primary btn-lg btn-block" type="submit" value='Predict'>
+    <input class="btn btn-primary btn-lg btn-block" type="submit" name="submit" value='Predict' onclick="return alert('record saved successfully')">
 
   </form>
 </body>
